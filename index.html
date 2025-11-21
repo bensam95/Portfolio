@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prénom NOM — Portfolio BTS SIO SLAM</title>
+  <meta name="description" content="Portfolio de Prénom NOM — Étudiant BTS SIO option SLAM. Projets scolaires, compétences en développement d'applications et base de données." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Prénom NOM</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+      <nav id="mainNav" class="nav">
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Étudiant BTS SIO — option SLAM</h1>
+          <p class="lead">Je m'appelle Prénom NOM. Je conçois et développe des applications (web et logiciels) : conception, bases de données, back-end, et interfaces.</p>
+          <p>
+            <a class="btn primary" href="#projects">Voir mes projets</a>
+            <a class="btn outline" href="assets/files/CV.pdf" download>Télécharger le CV</a>
+          </p>
+        </div>
+        <div class="hero-image">
+          <!-- Remplace par ta photo réelle dans assets/images/portrait.jpg -->
+          <img src="assets/images/portrait-placeholder.png" alt="Portrait de Prénom NOM" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h2>À propos</h2>
+      <div class="about-grid">
+        <div>
+          <p>Actuellement en BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers). Je réalise des applications métiers, développe des bases de données et participe à des projets en équipe (PPE / stage).</p>
+          <p>Je suis passionné par la programmation, l'optimisation des requêtes SQL et la création d'interfaces simples et fonctionnelles.</p>
+        </div>
+        <div class="quick-info">
+          <div><strong>État :</strong> En formation</div>
+          <div><strong>Recherche :</strong> Stage / alternance / premier emploi</div>
+          <div><strong>Localisation :</strong> Ville, Région</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container formations" id="formations">
+      <h2>Formation</h2>
+      <ul class="formation-list">
+        <li>
+          <strong>BTS SIO — Option SLAM</strong>
+          <div class="muted">2023 — 2025 • Nom de l'établissement</div>
+          <p>Apprentissages : conception UML, architecture client/serveur, SQL, PHP, Java, C#, gestion de projet, sécurité et réseaux de base.</p>
+        </li>
+        <li>
+          <strong>BAC Pro / STMG / Autre</strong>
+          <div class="muted">2019 — 2022 • Établissement</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="container projects" id="projects">
+      <h2>Projets (PPE / Personnel / Stage)</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <img src="assets/images/project-biblio.png" alt="Gestion de bibliothèque — capture" />
+          <div class="project-card-body">
+            <h3>Application de gestion de bibliothèque</h3>
+            <p>Projet PPE : application de gestion des emprunts, des adhérents et du catalogue.</p>
+            <ul>
+              <li>Rôle : développeur principal (conception, back-end, base de données)</li>
+              <li>Technos : PHP (MVC), MySQL, Bootstrap, SQL (procédures stockées)</li>
+            </ul>
+            <p class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code (Git)</a>
+              <a href="#" target="_blank" rel="noopener">Démo / Vidéo</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/project-ecommerce.png" alt="Mini-site e-commerce — capture" />
+          <div class="project-card-body">
+            <h3>Mini-site e-commerce scolaire</h3>
+            <p>Projet personnel pour pratiquer les notions de panier, paiement simulé et gestion de commandes.</p>
+            <ul>
+              <li>Rôle : developer full-stack</li>
+              <li>Technos : JavaScript (Node.js, Express), SQLite, EJS, CSS</li>
+            </ul>
+            <p class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/project-interventions.png" alt="Application de gestion d'interventions — capture" />
+          <div class="project-card-body">
+            <h3>Application de gestion d'interventions (stage)</h3>
+            <p>Stage en entreprise : création d'un outil pour suivre les interventions techniques et générer des rapports PDF.</p>
+            <ul>
+              <li>Rôle : intégration et back-end</li>
+              <li>Technos : C#, .NET WinForms, SQL Server</li>
+            </ul>
+            <p class="project-links">
+              <a href="#" target="_blank" rel="noopener">Rapport de stage</a>
+            </p>
+          </div>
+        </article>
+
+        <!-- Duplique les cartes pour ajouter d'autres projets -->
+      </div>
+
+      <p class="note-projects">Conseil : pour chaque projet ajoute un README détaillé (problème, solution, schémas UML, captures d'écran, lien Git).</p>
+    </section>
+
+    <section class="container skills" id="skills">
+      <h2>Compétences techniques</h2>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h4>Langages</h4>
+          <ul>
+            <li>PHP / MySQL</li>
+            <li>Java</li>
+            <li>C# (.NET)</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>SQL (conception, procédures, optimisation)</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h4>Frameworks & Outils</h4>
+          <ul>
+            <li>Laravel (débutant)</li>
+            <li>Node.js / Express</li>
+            <li>Git / GitHub</li>
+            <li>Visual Studio / VS Code</li>
+            <li>UML, Merise (modélisation)</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h4>Soft skills</h4>
+          <ul>
+            <li>Travail en équipe</li>
+            <li>Gestion de projet (méthodes Agile / SCRUM simples)</li>
+            <li>Rédaction de documentation technique</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact" id="contact">
+      <h2>Contact</h2>
+      <p>Intéressé par mon profil ? Contactez-moi pour un stage, une alternance ou un projet.</p>
+
+      <form id="contactForm" class="contact-form" action="#" novalidate>
+        <label>
+          Nom
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          E-mail
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Envoyer</button>
+        <p class="form-notice" id="formNotice" aria-live="polite"></p>
+      </form>
+
+      <p class="alt-contact">Ou envoie un mail à <a href="mailto:prenom.nom@example.com">prenom.nom@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Prénom NOM — Étudiant BTS SIO SLAM · <a href="https://github.com/bensam95">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
